@@ -1,0 +1,11 @@
+---
+- hosts: bdd_wiki
+- name: Creation database 'wikidb'
+  mysql_db:
+    name: wikidb
+    state: present
+
+- name: Restart mariadb on config changes right away
+  service:
+    name: mysql
+    state: restarted

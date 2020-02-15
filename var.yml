@@ -1,0 +1,7 @@
+---
+
+app_name: MySQL
+password: password
+mysql_root_password: password
+home_dir: "/home/deploy"
+repo: http://repo.mysql.com/mysql-apt-config_0.8.13-1_all.deb
